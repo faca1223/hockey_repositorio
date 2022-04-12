@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div.animate {
+          width: 100px;
+          height: 100px;
+        
+          border: 1px;
+          animation: animacion 1s ease-in-out 1s infinite alternate;
+        }
+  
+        @keyframes animacion {
+          from {
+          }
+          to {
+            /* probar propiedades */
+            transform: skewX(15deg);
+          }
+        }
+      </style>
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body class="contenedor" class="grid-abuelo">
+    <header class="header" class="grid-padre grid-hijo-1">
+        <div class="animate">
+            <a href="index.html">
+                <img  class="header__img" src="imagenes/logorosa.png" alt="Logo">
+            </a>
+        </div>
+        <nav class="header__nav"> 
+            <ul class="nav__ul">
+                <li class="li"><a href="index.html">Inicio</a></li>
+                <li class="li"><a href="Quienes somos.html">Quienes somos</a></li>
+                <li class="li"><a href="Capacitaaciones.html">Capacitaciones</a></li>
+                <li class="li"><a href="Chiches.html">Chiches</a></li>
+                <li class="li"><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="caja1" class="grid-padre grid-hijo-2">
+        <div  class="grid-padre grid-hijo-2">
+            <h1 class="caja1__quienesSomos">QUIENES SOMOS</h1>
+            <div class="caja1__parrafos">
+            <P>Hockeytechnique es una organización que busca transmitir y dejar legado educativo de Excelencia , combinando nociones avanzadas de técnicas, dictadas por prestigiosos Profesionales del Hockey , apostando también a la diversidad de conceptos y métodos. El deporte de conjunto ha evolucionado de forma que todos los aspectos son importantes, técnico, táctico, físico y mental. Por esto la tendencia mundial es desarrollar sistemas de entrenamiento que integren estos aspectos como pasa en la competencia para que los jugadores y equipos desarrollen su máximo potencial.</P>
+            <div>
+                <img class="img" src="imagenes/coachs.jpg" alt="teamwork">
+            </div>
+     </section>
+       
+    <section class="caja2">
+        <div class="grid-padre grid-hijo-3">
+            <h2 class="caja2__secundarios">Programa</h2>
+            <div class="caja2__secundarios">
+            <p>Nuestra amplia variedad de programas relacionados con la capacitación en el deporte nace, con el objetivo de brindar contenidos de actualidad y el desarrollo de las más modernas estrategias para la enseñanza y el entrenamiento integral del deportista. Y que esta información sea de fácil acceso para TODOS.
+
+                    Un desarrollo integral, del entrenador y del deportista con una mirada profunda desde los adelantos humanos, biológicos, científicos y tecnológicos.
+                    
+                    El deporte, sus herramientas y las estrategias avanzan de manera vertiginosa, cambian, se modifican y se adaptan. Por eso debemos preparar al jugador pensando en el deporte del mañana… Para ello les brindamos las más modernas herramientas en el proceso de enseñanza-aprendizaje, y en el entrenamiento de alto rendimiento.</p>
+            <div>
+                <img class="img" src="imagenes/hockey-yt-backhand.jpg" alt="Training">
+            
+            </div>                    
+                
+    </section>
+    
+    <footer class="grid-padre grid-hijo-4"> 
+        <section class="container">
+            <div>
+          <h4 class="containerr__skiller">"La práctica hace al Skiller"</h4>
+            </div>
+            <div>
+                <h4 class="container__tecnica">Sabemos de técnica</h4>
+            </div>
+            <div>
+<a href="">
+    <img class="container__redes" src="imagenes/facebook.png" alt="Hockey Technique">
+    <a href="">
+        <img class="container__redes" src="imagenes/instagram.png" alt="hockeytechnique">
+    </a>
+</a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

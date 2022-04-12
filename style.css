@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@300 & display=swap");
+
+* {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+.contenedor__body {
+  font-family: "montserrat" sans-serif;
+  text-align: justify;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(143, 216, 235);
+}
+
+
+.header {
+  padding:10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.header__img {
+  max-width: 80%;
+  width: 60px;
+  height: 60px;
+}
+.header__img:hover {
+  background-color: rgb(170, 243, 198);
+  opacity: 0.5s;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.header__nav {
+  border: 10px;
+  background-color: rgb(67, 179, 179);
+  list-style: none;
+}
+
+.header__nav ul li {
+  display: inline-block;
+  text-align: justify;
+  
+}
+.ul {
+  background-color: none;
+  border-radius: 10px;
+}
+
+.li {
+  padding: 0rem;
+  max-width: 100px;
+  height: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+header ul li:hover {
+  background-color: rgb(170, 243, 198);
+  opacity: 0.5s;
+  background-size: cover;
+}
+
+.imagenDeFondo {
+  background-image: url(imagenes/section\ index\ imagen.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.textoTransparencia {
+  height: 100%;
+  text-align: center;
+  padding: 85px;
+  text-transform: uppercase;
+  text-decoration: solid;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(
+    rgb(21, 134, 226),
+    rgb(47, 219, 241) );
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 15%;
+    transition: opacity 1s;
+}
+.textoTransparencia:hover {
+  opacity: 0.5;
+}
+
+.caja1 {
+  padding: 0.5rem 0;
+  margin: 10px;
+}
+
+.caja1__quienesSomos {
+  background-color: azure;
+  margin: 10px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.caja1__parrafos {
+  background-color: rgb(243, 243, 101);
+  padding: 2rem;
+  margin: 10px;
+  text-align: center;
+}
+
+.caja2 {
+  padding: 0.5rem 0;
+  align-items: center;
+}
+
+.caja2__secundarios {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  background-color: rgb(243, 243, 101);
+}
+
+.capacitaciones {
+  background-color: azure;
+  margin: 10px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tipos {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  background-color: rgb(243, 243, 101);
+  background: linear-gradient(
+      rgba(158, 241, 64, 0.7),
+      rgba(221, 243, 162, 0.7)
+    );
+}
+
+.chiches {
+  background-color: azure;
+  margin: 10px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contacto {
+  background-color: azure;
+  margin: 10px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.img {
+  margin: 10px;
+  padding: 0.5rem;
+  max-width: 100%;
+  background: linear-gradient(
+      rgba(189, 245, 184, 0.7),
+      rgba(219, 241, 214, 0.7)
+    );
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  padding: 0.1rem;
+  align-items: center;
+}
+
+.container__skiller {
+  padding: 0.5rem;
+  text-decoration: solid;
+}
+
+.container__tecnica {
+  padding: 0.5rem;
+}
+
+.container__redes {
+  max-width: 100px;
+  padding: 1rem;
+}
+
+.grid-abuelo{
+  display: grid;
+  padding: 30px;
+  grid-template-columns: 220px 250px;
+  grid-auto-rows: 150px;
+  grid-gap: 30px;
+  grid-template-areas: 
+  "header header"
+  "main sidebar"
+  "footer footer";
+}
+
+.grid-padre{
+  padding: 0,5rem;
+  border: 10px solid black;
+
+}
+
+.grid-hijo-1{
+  grid-area: header;
+}
+.grid-hijo-2{
+  grid-area: main;
+}
+.grid-hijo-3{
+  grid-area: sidebar;
+}
+.grid-hijo-4{
+  grid-area: footer;
+}
+
+@media (max-width: 768px){
+  body{
+    background-color: rgb(143, 216, 235);
+  }
+
+  .header {
+    padding: 0 0,5rem;
+    position:static;
+    top: 0;
+    z-index: 1;
+    display:block;
+    justify-content:space-between;
+    align-content: center;
+    margin: 0;
+    
+  }
+
+  .header__img {
+   
+    width: 60px;
+    height: 60px;
+  }
+
+  .header__nav {
+    background-color: rgb(222, 231, 229);
+    align-content: center;
+    width: 1fr;
+  }
+
+  .header__nav ul li {
+    display:block;
+    text-align:center;
+    align-content: center;
+    margin: 5px;
+  }
+
+  .li {
+    padding: 1rem;
+    max-width: 500px;
+    height: 20px;
+    margin: 0px;
+    align-content: center;
+
+  }
+
+
+ 
+.textoTransparencia{
+  padding: 10px;
+  align-content: center;
+}
+}

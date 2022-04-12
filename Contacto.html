@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div.animate {
+          width: 100px;
+          height: 100px;
+        
+          border: 1px;
+          animation: animacion 1s ease-in-out 1s infinite alternate;
+        }
+  
+        @keyframes animacion {
+          from {
+          }
+          to {
+            /* probar propiedades */
+            transform: skewX(15deg);
+          }
+        }
+      </style>
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body class="contenedor" class="grid-abuelo">
+    <header class="header" class="grid-padre grid-hijo-1">
+        <div class="animate">
+            <a href="index.html">
+                <img  class="header__img" src="imagenes/logorosa.png" alt="Logo">
+            </a>
+        </div>
+        <nav class="header__nav"> 
+            <ul class="nav__ul">
+                <li class="li"><a href="index.html">Inicio</a></li>
+                <li class="li"><a href="Quienes somos.html">Quienes somos</a></li>
+                <li class="li"><a href="Capacitaaciones.html">Capacitaciones</a></li>
+                <li class="li"><a href="Chiches.html">Chiches</a></li>
+                <li class="li"><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="grid-padre grid-hijo-2">
+        <div>
+            <h1 class="contacto">CONTACTO</h1>
+        </div>
+    </section>
+    <section class="grid-padre grid-hijo-3">
+        <form action="">
+            <fieldset>
+                <legend>Contactanos</legend>
+                <label for="nombre">nombre</label>
+                <input type="text"name="nombre" id="nombre">
+                <br>
+                <label for="apellido">apellido</label>
+                <input type="text" name="apellido" id="apellido">
+
+                <div>hombre</div>
+                <input type="radio" name="sexo" value="masculino">
+                <div>mujer</div>
+                <input type="radio" name="sexo" value="femenino">
+                <div>acepta terminos y condiciones</div>
+                <input type="checkbox" name="acepta" value="1">
+                <br>
+                <label for="mensaje"></label>
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <br>
+                <input type="submit" value="enviar" class="enviar">
+                <input type="reset" name="limpiar" id="limpiar" class="limpiar">
+            </fieldset>
+        </form>
+    </section>
+    <footer class="grid-padre grid-hijo-4">
+        <section class="container">
+            <div>
+          <h4 class="containerr__skiller">"La práctica hace al Skiller"</h4>
+            </div>
+            <div>
+                <h4 class="container__tecnica">Sabemos de técnica</h4>
+            </div>
+            <div>
+<a href="">
+    <img class="container__redes" src="imagenes/facebook.png" alt="Hockey Technique">
+    <a href="">
+        <img class="container__redes" src="imagenes/instagram.png" alt="hockeytechnique">
+    </a>
+</a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
