@@ -153,6 +153,10 @@ header ul li:hover {
     );
 }
 
+.iframeSize{
+  width: 560px;
+  height: 315px;
+}
 .chiches {
   background-color: azure;
   margin: 10px;
@@ -196,6 +200,16 @@ header ul li:hover {
   margin: 20px auto;
   padding: 0.1rem;
   align-items: center;
+  text-decoration: solid;
+  text-transform: uppercase;
+}
+
+.container__img{
+  background-image: url(imagenes/fondofooter.webp);
+  opacity: 70%;
+  background-size: cover;
+  height: 100%;
+  position: relative;
 }
 
 .container__skiller {
@@ -293,5 +307,10 @@ header ul li:hover {
 .textoTransparencia{
   padding: 10px;
   align-content: center;
+}
+
+.iframeSize{
+  width: auto;
+  height: auto;
 }
 }
