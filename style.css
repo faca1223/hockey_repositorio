@@ -13,7 +13,7 @@
 .contenedor {
   width: 80%;
   margin: 0 auto;
-  background-color: rgb(143, 216, 235);
+  background-color: rgb(211, 248, 214);
 }
 
 
@@ -194,7 +194,7 @@ header ul li:hover {
     );
 }
 
-.container {
+.conteiner {
   display: flex;
   justify-content: space-between;
   margin: 20px auto;
@@ -204,7 +204,7 @@ header ul li:hover {
   text-transform: uppercase;
 }
 
-.container__img{
+.conteiner__img{
   background-image: url(imagenes/fondofooter.webp);
   opacity: 70%;
   background-size: cover;
@@ -212,16 +212,16 @@ header ul li:hover {
   position: relative;
 }
 
-.container__skiller {
+.conteiner__skiller {
   padding: 0.5rem;
   text-decoration: solid;
 }
 
-.container__tecnica {
+.conteiner__tecnica {
   padding: 0.5rem;
 }
 
-.container__redes {
+.conteiner__redes {
   max-width: 100px;
   padding: 1rem;
 }
@@ -240,7 +240,7 @@ header ul li:hover {
 
 .grid-padre{
   padding: 0,5rem;
-  border: 10px solid black;
+  border: 3px solid black;
 
 }
 
