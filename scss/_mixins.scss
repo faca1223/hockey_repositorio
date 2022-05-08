@@ -1,0 +1,8 @@
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.header__img{
+    @include sizes(60px,55px )
+}
