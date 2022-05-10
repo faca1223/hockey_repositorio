@@ -60,13 +60,31 @@ header .header__nav ul li {
   border-radius: 25px;
 }
 
+.textoTransparencia {
+  opacity: 15% 2s;
+}
+
 .caja1__quienesSomos {
   text-decoration: bold;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
 .caja2__secundarios {
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
   height: 160px;
+  text-decoration: bold;
+}
+
+.capacitaciones {
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tipos {
+  text-decoration: bold;
+}
+
+.chiches {
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
 .enviar, .enviar--boton {

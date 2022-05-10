@@ -52,14 +52,35 @@ header{
     
     }
 
+.textoTransparencia{
+    opacity: $opacidad;
+}
+
+
 .caja1__quienesSomos{
     text-decoration: $negrita;
+    box-shadow: $sombras;
 }
 
 .caja2__secundarios{
     box-shadow: $sombras ;
     height: $altura;
+    text-decoration: $negrita;
 }
+
+.capacitaciones{
+    box-shadow: $sombras;
+}
+
+.tipos{
+    text-decoration: $negrita;
+}
+
+.chiches{
+box-shadow: $sombras
+}
+
+
 
 .enviar{
     background: linear-gradient(
