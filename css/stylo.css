@@ -60,8 +60,51 @@ header .header__nav ul li {
   border-radius: 25px;
 }
 
+header ul li:hover {
+  background-color: rgb(170, 243, 198);
+  opacity: 0.5s;
+  background-size: cover;
+}
+
 .textoTransparencia {
-  opacity: 15% 2s;
+  height: 100%;
+  text-align: center;
+  padding: 85px;
+  text-transform: uppercase;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(rgb(21, 134, 226), rgb(190, 208, 211));
+  color: rgb(248, 240, 240);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 15%;
+  transition: opacity 1s;
+  background-size: cover;
+}
+.textoTransparencia .h3 {
+  padding: 3rem;
+  opacity: 40%;
+}
+
+.textoTransparencia:hover {
+  opacity: 90%;
+  background-size: cover;
+}
+
+.imagenDeFondo {
+  background-image: url(imagenes/section\ index\ imagen.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
 }
 
 .caja1__quienesSomos {
@@ -102,6 +145,16 @@ header .header__nav ul li {
 .limpiar--boton {
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+}
+
+.conteiner__skiller {
+  text-decoration: solid;
+  color: rgb(14, 2, 48);
+}
+
+.conteiner_tecnica {
+  text-decoration: solid;
+  color: rgb(14, 2, 48);
 }
 
 .grid-abuelo {
