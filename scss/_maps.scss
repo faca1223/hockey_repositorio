@@ -1,0 +1,11 @@
+$redes:(
+instagram: #f5e06a,
+facebook: #3a5795,
+);
+@each $red, $color in $redes {
+    btn--#{$red} {
+        background-color: $color;
+    }
+ }
+     
+
