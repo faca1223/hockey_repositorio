@@ -103,6 +103,11 @@ header{
         height: 100vh;
         position: relative;
       }
+
+      imagenDeFondo:hover {
+        opacity: 60%;
+        background-color: rgb(209, 212, 201);
+      }
      
       
 .caja1__quienesSomos{
@@ -122,6 +127,7 @@ header{
 
 .tipos{
     text-decoration: $negrita;
+    text-align: center;
 }
 
 .chiches{
@@ -156,13 +162,18 @@ box-shadow: $sombras
   }
 
   .conteiner__skiller{
-      text-decoration: solid;
-      color: rgb(14, 2, 48);
+    padding: 0.5rem;
+    text-decoration: solid;
+    color: rgba(9, 243, 243, 0.959);
+    text-align: left;
+    text-decoration: solid;
   }
 
   .conteiner_tecnica{
-      text-decoration: solid;
-      color: rgb(14, 2, 48);
+    padding: 0.5rem;
+    color: rgba(9, 243, 243, 0.959);
+    text-align: right;
+    text-decoration: solid;
   }
 
     .grid-abuelo{
@@ -179,6 +190,7 @@ box-shadow: $sombras
         .grid-padre{
             padding: 0.5rem;
             border: 3px $secondary-color;
+            align-content: center;
 
             grid-hijo-2{
                 grid-area: main;
@@ -186,6 +198,7 @@ box-shadow: $sombras
 
         grid-hijo-3{
             grid-area: sidebar;
+            text-align: center;
 
         }
         grid-hijo-4{
